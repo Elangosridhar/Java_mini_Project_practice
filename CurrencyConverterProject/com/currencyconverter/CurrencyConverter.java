@@ -10,7 +10,7 @@ public class CurrencyConverter {
     public CurrencyConverter() {
         exchangeRates = new HashMap<>();
         // Example exchange rates
-        exchangeRates.put("USD", 1.0);
+        exchangeRates.put("USD", 1.00);
         exchangeRates.put("EUR", 0.94);
         exchangeRates.put("GBP", 0.79);
         exchangeRates.put("INR", 83.58);
