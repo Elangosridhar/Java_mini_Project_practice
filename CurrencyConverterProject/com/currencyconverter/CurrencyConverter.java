@@ -11,9 +11,9 @@ public class CurrencyConverter {
         exchangeRates = new HashMap<>();
         // Example exchange rates
         exchangeRates.put("USD", 1.0);
-        exchangeRates.put("EUR", 0.85);
-        exchangeRates.put("GBP", 0.75);
-        exchangeRates.put("INR", 74.0);
+        exchangeRates.put("EUR", 0.94);
+        exchangeRates.put("GBP", 0.79);
+        exchangeRates.put("INR", 83.58);
     }
 
     public double convert(String fromCurrency, String toCurrency, double amount) {
